@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="520" viewBox="0 0 1180 520" role="img" aria-labelledby="title desc">
+  <title id="title">Workflow đầu tư trên VN Finance Lab</title>
+  <desc id="desc">Sơ đồ workflow từ chu kỳ ngành, định giá, CAPM, PTKT, Markowitz, dự báo, rủi ro, quyết định tới nhật ký giao dịch.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M1.5,1.5 L9,5.5 L1.5,9.5 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .frame { fill: #f8fafc; stroke: #dbe4ef; stroke-width: 2; }
+      .card { stroke-width: 1.8; rx: 14; }
+      .blue { fill: #eff6ff; stroke: #60a5fa; }
+      .green { fill: #ecfdf5; stroke: #34d399; }
+      .amber { fill: #fffbeb; stroke: #f59e0b; }
+      .rose { fill: #fff1f2; stroke: #fb7185; }
+      .violet { fill: #f5f3ff; stroke: #a78bfa; }
+      .title { fill: #0f172a; font-family: Arial, sans-serif; font-size: 25px; font-weight: 700; }
+      .subtitle { fill: #64748b; font-family: Arial, sans-serif; font-size: 14px; }
+      .step { fill: #0f172a; font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; }
+      .body { fill: #475569; font-family: Arial, sans-serif; font-size: 13px; }
+      .note-title { fill: #0f172a; font-family: Arial, sans-serif; font-size: 15px; font-weight: 700; }
+      .note { fill: #334155; font-family: Arial, sans-serif; font-size: 13px; }
+      .line { fill: none; stroke: #334155; stroke-width: 2.1; marker-end: url(#arrow); }
+      .soft-line { fill: none; stroke: #94a3b8; stroke-width: 1.5; }
+    </style>
+  </defs>
+
+  <rect class="frame" x="18" y="18" width="1144" height="484" rx="18"/>
+  <text class="title" x="50" y="58">Workflow đầu tư: từ bối cảnh ngành tới quyết định</text>
+  <text class="subtitle" x="50" y="82">Mỗi bước là một lớp bằng chứng; không dùng một chỉ báo đơn lẻ để phát lệnh mua/bán.</text>
+
+  <rect class="card blue" x="50" y="124" width="185" height="112"/>
+  <text class="step" x="72" y="153">1. Chu kỳ ngành</text>
+  <text class="body" x="72" y="179">Fourier / chu kỳ</text>
+  <text class="body" x="72" y="200">Tìm ngành có pha</text>
+  <text class="body" x="72" y="221">đang cải thiện</text>
+
+  <rect class="card blue" x="275" y="124" width="185" height="112"/>
+  <text class="step" x="300" y="153">2. Định giá</text>
+  <text class="body" x="300" y="179">BCTC, peers</text>
+  <text class="body" x="300" y="200">Fair value/share</text>
+  <text class="body" x="300" y="221">so với thị giá</text>
+
+  <rect class="card green" x="500" y="124" width="185" height="112"/>
+  <text class="step" x="525" y="153">3. CAPM / Beta</text>
+  <text class="body" x="525" y="179">Beta, alpha</text>
+  <text class="body" x="525" y="200">Lọc cổ phiếu có</text>
+  <text class="body" x="525" y="221">rủi ro phù hợp</text>
+
+  <rect class="card green" x="725" y="124" width="185" height="112"/>
+  <text class="step" x="750" y="153">4. PTKT</text>
+  <text class="body" x="750" y="179">MA, MACD, RSI</text>
+  <text class="body" x="750" y="200">Volume, xu hướng</text>
+  <text class="body" x="750" y="221">và động lượng</text>
+
+  <rect class="card amber" x="950" y="124" width="185" height="112"/>
+  <text class="step" x="975" y="153">5. Markowitz</text>
+  <text class="body" x="975" y="179">Tối ưu tỷ trọng</text>
+  <text class="body" x="975" y="200">Sharpe, volatility</text>
+  <text class="body" x="975" y="221">và độ lệch danh mục</text>
+
+  <rect class="card amber" x="162" y="306" width="185" height="112"/>
+  <text class="step" x="187" y="335">6. Dự báo</text>
+  <text class="body" x="187" y="361">Backtest train/test</text>
+  <text class="body" x="187" y="382">Sai số giá và</text>
+  <text class="body" x="187" y="403">đúng hướng</text>
+
+  <rect class="card rose" x="387" y="306" width="185" height="112"/>
+  <text class="step" x="412" y="335">7. Rủi ro</text>
+  <text class="body" x="412" y="361">VaR, CVaR</text>
+  <text class="body" x="412" y="382">Stress test</text>
+  <text class="body" x="412" y="403">và tail risk</text>
+
+  <rect class="card violet" x="612" y="306" width="185" height="112"/>
+  <text class="step" x="637" y="335">8. Quyết định</text>
+  <text class="body" x="637" y="361">Mua / theo dõi</text>
+  <text class="body" x="637" y="382">Giảm tỷ trọng</text>
+  <text class="body" x="637" y="403">hoặc bỏ qua</text>
+
+  <rect class="card violet" x="837" y="306" width="185" height="112"/>
+  <text class="step" x="862" y="335">9. Nhật ký</text>
+  <text class="body" x="862" y="361">Ghi giả thuyết</text>
+  <text class="body" x="862" y="382">Giá mua, kết quả</text>
+  <text class="body" x="862" y="403">và bài học</text>
+
+  <path class="line" d="M235 180 H275"/>
+  <path class="line" d="M460 180 H500"/>
+  <path class="line" d="M685 180 H725"/>
+  <path class="line" d="M910 180 H950"/>
+  <path class="line" d="M1042 236 V266 H255 V306"/>
+  <path class="line" d="M347 362 H387"/>
+  <path class="line" d="M572 362 H612"/>
+  <path class="line" d="M797 362 H837"/>
+
+  <path class="soft-line" d="M50 450 H1135"/>
+  <text class="note-title" x="50" y="471">Nguyên tắc:</text>
+  <text class="note" x="142" y="471">Ngành tốt -> định giá không quá đắt -> cổ phiếu hợp lý -> kỹ thuật không xấu -> danh mục cân bằng</text>
+  <text class="note" x="142" y="491">-> forecast/risk chấp nhận được -> mới ra quyết định.</text>
+</svg>
