@@ -8,9 +8,9 @@ Repo này là bản giới thiệu công khai: chỉ có README, tài liệu mô
 
 Dự án này được xây dựng từ nguồn cảm hứng sau cuộc thi Fintech Attacker, khi mình có cơ hội nhìn rõ hơn nhu cầu kết nối dữ liệu tài chính, phân tích định lượng và trải nghiệm dashboard trong một quy trình nghiên cứu đầu tư thực tế. Từ ý tưởng ban đầu đó, mình phát triển Vietnam Financial Dashboard như một không gian thử nghiệm để gom các lớp dữ liệu vĩ mô, thị trường, báo cáo tài chính, định giá, dự báo và quản trị rủi ro vào cùng một hệ thống trực quan.
 
-Trong quá trình thực hiện, mình được biết tới phương pháp vibe coding và có sự hỗ trợ của các model AI trong việc gợi ý cấu trúc, rà soát logic, hỗ trợ viết mã, viết tài liệu và cải thiện trải nghiệm người dùng. AI là công cụ đồng hành giúp tăng tốc quá trình học và xây dựng, còn phần lựa chọn mục tiêu, kiểm tra kết quả, chịu trách nhiệm nội dung và định hướng sản phẩm vẫn thuộc về người phát triển dự án.
+Trong quá trình thực hiện, mình được biết tới phương pháp vibe coding và có sự hỗ trợ của các model AI trong việc gợi ý cấu trúc, rà soát logic, hỗ trợ viết mã, viết tài liệu và cải thiện trải nghiệm người dùng.
 
-Mình xin cảm ơn cuộc thi Fintech Attacker đã tạo động lực để bắt đầu ý tưởng này, cảm ơn các nguồn tài liệu, thư viện mã nguồn mở và cộng đồng công nghệ - tài chính đã giúp việc học hỏi trở nên dễ tiếp cận hơn. Dự án này được chia sẻ với tinh thần học tập, nghiên cứu và minh họa năng lực xây dựng hệ thống, không phải là khuyến nghị đầu tư hay cam kết về hiệu quả giao dịch. Người xem cần tự kiểm chứng dữ liệu, mô hình và giả định trước khi sử dụng cho bất kỳ quyết định tài chính nào.
+Dự án này được chia sẻ với tinh thần học tập, nghiên cứu và minh họa năng lực xây dựng hệ thống, không phải là khuyến nghị đầu tư hay cam kết về hiệu quả giao dịch. Người xem cần tự kiểm chứng dữ liệu, mô hình và giả định trước khi sử dụng cho bất kỳ quyết định tài chính nào.
 
 ## Mục Lục
 
