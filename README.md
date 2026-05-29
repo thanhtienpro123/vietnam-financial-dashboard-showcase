@@ -108,8 +108,8 @@ Mục báo cáo tài chính dùng để đọc dữ liệu nền của doanh ngh
 Ý nghĩa:
 
 - Là lớp kiểm tra chất lượng doanh nghiệp trước khi dùng định giá.
-- Giúp phát hiện doanh nghiệp tăng trưởng thật hay chỉ tăng giá theo sóng thị trường.
-- Hình trên minh họa khu vực chọn cổ phiếu và đọc báo cáo tài chính, nơi người dùng kiểm tra số liệu trước khi sang định giá.
+- Giúp đọc nhanh xu hướng doanh thu, lợi nhuận, biên lợi nhuận, tài sản, nợ và dòng tiền qua các kỳ.
+- Hình trên minh họa khu vực chọn cổ phiếu và đọc báo cáo tài chính, nơi người dùng kiểm tra dữ liệu nền của doanh nghiệp.
 
 ### PTKT
 
@@ -169,7 +169,6 @@ Các chỉ số cần đọc:
 
 - Model nào có RMSE thấp nhưng sai hướng nhiều thì phù hợp tham khảo mức giá hơn là tín hiệu giao dịch.
 - Model nào đúng hướng cao nhưng độ phủ thấp thì chỉ nên coi là tín hiệu chọn lọc.
-- Không có model nào được chứng minh đúng ổn định 90% trên toàn thị trường Việt Nam.
 - Hình trên minh họa màn hình điều khiển dự báo: chọn phạm vi, cửa sổ train/test, horizon, epoch và model cần chạy.
 
 ### Phòng Thí Nghiệm Rủi Ro
